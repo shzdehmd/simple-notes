@@ -18,8 +18,8 @@
         "url": "https://github.com/shzdehmd/simple-notes"
     },
     "scripts": {
-        "start": "node .",
-        "start:dev": "node --watch ."
+        "start": "node --env-file=.env .",
+        "start:dev": "node --watch --env-file=.env ."
     },
     "version": "0.0.1"
 }
