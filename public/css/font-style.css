@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
+
+* {
+    font-family: 'Mina', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #dddddd;
+}
+
+.mina-bold {
+    font-family: 'Mina', serif;
+    font-weight: 700;
+    font-style: normal;
+}
