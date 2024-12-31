@@ -1,0 +1,23 @@
+{
+    "author": {
+        "email": "ahmad@shahzad.dev",
+        "name": "Ahmad Shahzad",
+        "url": "https://shahzad.dev"
+    },
+    "dependencies": {},
+    "description": "A simple note-taking app with work and life lists containing tasks and notes.",
+    "homepage": "https://simple-notes.xkv.one",
+    "license": "MIT",
+    "main": "app.js",
+    "name": "simple-notes",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shzdehmd/simple-notes"
+    },
+    "scripts": {
+        "start": "node .",
+        "start:dev": "node --watch ."
+    },
+    "version": "0.0.1"
+}
