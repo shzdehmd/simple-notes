@@ -20,8 +20,8 @@
         "url": "https://github.com/shzdehmd/simple-notes"
     },
     "scripts": {
-        "start": "node --env-file=.env .",
-        "start:dev": "node --watch --env-file=.env ."
+        "start": "node --env-file=.env --experimental-sqlite .",
+        "start:dev": "node --watch --env-file=.env --experimental-sqlite ."
     },
     "version": "0.0.1"
 }
