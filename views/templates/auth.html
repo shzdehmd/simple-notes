@@ -3,15 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{{ title }}</title>
+        <title>register | {{ title }}</title>
         <link rel="stylesheet" href="/css/reset.css" />
         <link rel="stylesheet" href="/css/font-style.css" />
         <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/auth-style.css" />
     </head>
     <body>
-        <!-- THE LOGO -->
-        <h1 class="logo home-logo">
-            <a href="/">{{ title }}</a>
-        </h1>
+        {% block form %} {% endblock %}
     </body>
 </html>

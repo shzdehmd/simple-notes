@@ -2,17 +2,37 @@ body {
     background-color: #111111;
 }
 
-h1 {
+h1.home-logo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-h1 > a {
+h1.logo {
+    text-align: center;
+    font-size: 24px;
+}
+
+h1.logo > a {
     text-decoration: none;
 }
 
-h1 > a:hover {
+h1.logo > a:hover {
+    color: rgb(185, 79, 255);
+}
+
+.space {
+    display: block;
+    height: 25px;
+    width: 100%;
+}
+
+:focus {
+    outline: 2px solid rgb(185, 79, 255);
+    border: none;
+}
+
+a:focus {
     color: rgb(185, 79, 255);
 }

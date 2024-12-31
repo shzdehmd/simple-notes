@@ -1,0 +1,30 @@
+{% extends "templates/auth.html" %} {% block form %}
+<!-- THE REGISTER FORM -->
+<form action="/login" method="post" class="auth-form">
+    <div class="space"></div>
+    <!-- THE LOGO -->
+    <h1 class="logo auth-logo">
+        <a href="/">{{ title }}</a>
+    </h1>
+
+    <div class="space"></div>
+    <div class="space"></div>
+
+    <label for="username"
+        >username:
+        <input type="text" name="username" id="username" placeholder="johndoe" />
+    </label>
+    <div class="space"></div>
+
+    <label for="password"
+        >password:
+        <input type="password" name="password" id="password" placeholder="********" />
+    </label>
+
+    <p>don't have an account? <a href="/register">register.</a></p>
+    <div class="space"></div>
+
+    <button type="submit" class="mina-bold">Login</button>
+    <div class="space"></div>
+</form>
+{% endblock %}
